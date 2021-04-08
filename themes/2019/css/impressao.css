@@ -1,0 +1,6 @@
+@media print {
+	.galeria .btn, 
+	.breadcrumbs, 
+	.outrasAcoes, 
+	.redesocial {display:none !important;}
+}

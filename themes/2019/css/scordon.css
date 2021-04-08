@@ -1,0 +1,503 @@
+:root{
+    --corTextMenu:#f1f1f1;
+    --corBenfIcon:#fff;
+    --bodyBg:#1a1a1a;           /* Tema Escuro: #000 ou #1a1a1a;  Tema Claro: #fff  */ 
+    --corTxtBase: #fff;         /* Tema Escuro: #fff; Tema Claro: #000  */ 
+
+    /* BACKGROUND COLOR */
+    --corMenuBg:#21201e;
+    --corMenuTxt:#fff;
+    --corMenuTxtHover:#a1a1a1;
+    --corBgPadrao:#fbec03;
+    --corBgPadraoTxt:#000;     /* Escuro: #000; Claro: #fff */
+    --corBgBusca: #222;
+
+    /* BOTÕES CORES */
+    /* BOTÃO HOME */
+    --corBtnHome:#fbec03;
+    --corBtnHomeHover:#e2d500;
+    --corBtnHomeTxt:#000;      /* Escuro: #333 ou #000; Claro: #fff */
+    --corBtnHomeTxtHover:#000; 
+    --corBtnShare:#fff;
+    /* BOTÃO BUSCA */
+    --corBtnBusca:#fbec03;
+    --corBtnBuscaHover:#e2d500;
+    --corBtnBuscaTxt:#323232;  /* Escuro: #333 ou #000; Claro: #fff */
+
+    --corCarousel: #757575;
+    --corCarouselActive: #fbec03;
+    /* BOTÃO DEFAULT */
+    --corBtn:#fbec03;
+    --corBtnHover:#e2d500;
+    --corBtnTxt:#000;      /* Escuro: #333 ou #000; Claro: #fff */
+    /* BOTÃO RETURN TO TOP*/
+    --corReturnToTop:rgba(0, 0, 0, 0.7);
+    --corReturnToTopTxt:#fff;
+    --corReturnToTopHover:rgba(0, 0, 0, 0.9);
+    
+    --corFooter:#1a1a1a;
+    --corFooterTxt:#fff;       /* Escuro: #000; Claro: #fff */
+    --corFooterTxtHover:#ccc;  /* Escuro: #333; Claro: #ccc */
+
+    --corImovelCard: #323232; 
+    --corImovelTxt: #fff;      /* Tema Escuro: #fff; Tema Claro: #000  */ 
+
+    --corDefault: #fbec03;     /* Vermelho */
+    
+    --cor01: #fbec03;
+    --cor01Hover: #e2d500;
+    --cor02: #fff;
+    --cor02Hover: #ccc;
+    --cor03: #1a1a1a;
+    --cor03Hover: #000000;
+    --cor04: #323232;
+    --cor04Hover: #000000;
+}
+
+
+.btn-primary{ background-color: var(--corBtn); border-color: var(--corBtn); }
+.btn-primary:hover, .btn-primary:active { background-color: var(--corBtnHover) !important; border-color: var(--corBtnHover) !important; }
+.btn-primary:focus { box-shadow: 0 0 0 .2rem rgba(155, 31, 31, 0.5); border-color: var(--corBtn) !important; }
+
+@font-face {
+    font-family: "uniuansbold";
+    src: url("../font/unisans/unisansbold.eot");
+    src: url("../font/unisans/unisansbold.eot?#iefix")      format("embedded-opentype");
+    src: url("../font/unisans/unisansbold.ttf")          format("truetype");
+}
+@font-face {
+    font-family: "uniuansheavy";
+    src: url("../font/unisans/uniuansheavy.eot");
+    src: url("../font/unisans/uniuansheavy.eot?#iefix")      format("embedded-opentype");
+    src: url("../font/unisans/uniuansheavy.ttf")            format("truetype");
+}
+@font-face {
+    font-family: "unisanslight";
+    src: url("../font/unisans/unisanslight.eot");
+    src: url("../font/unisans/unisanslight.eot?#iefix")      format("embedded-opentype");
+    src: url("../font/unisans/unisanslight.ttf")             format("truetype");
+}
+@font-face {
+    font-family: "unisanssemibold"; 
+    src: url("../font/unisans/unisanssemibold.eot"); 
+    src: url("../font/unisans/unisanssemibold.eot?#iefix")      format("embedded-opentype");
+    src: url("../font/unisans/unisanssemibold.ttf")             format("truetype");
+}
+@font-face {
+    font-family: "unisansbook"; 
+    src: url("../font/unisans/unisansbook1.eot"); 
+    src: url("../font/unisans/unisansbook1.eot?#iefix")      format("embedded-opentype");
+    src: url("../font/unisans/unisansbook1.ttf")             format("truetype");
+}
+@font-face {
+    font-family: "harabara"; 
+    src: url("../font/harabara/harabara_mais_demo-webfont.eot"); 
+    src: url("../font/harabara/harabara_mais_demo-webfont.eot?#iefix")      format("embedded-opentype");
+    src: url("../font/harabara/harabara_mais_demo-webfont.ttf")             format("truetype");
+}
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }  
+    100% { opacity: 1; }
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* ========= fontes ========= */
+.uniuansbold      { font-family: uniuansbold !important; font-weight: 100; }
+.uniuansheavy     { font-family: uniuansheavy !important; font-weight: 100; }
+.unisanslight     { font-family: unisanslight !important; font-weight: 100; }
+.unisanssemibold  { font-family: unisanssemibold !important; font-weight: 100; }
+.unisansbook      { font-family: unisanssemibold !important; font-weight: 100; }
+
+.libertine        { font-family: libertine !important; font-weight: 100; }
+.libertinebold    { font-family: libertinebold !important; font-weight: 100; }
+
+.helveticabold    { font-family: helveticabold !important; font-weight: 100; }
+
+.harabara         { font-family: harabara !important; font-weight: 100; }
+
+.ubuntu { font-family: ubuntu !important; font-weight: 100; }
+/*.bebas            { font-family: bebas !important; font-weight: 100; }
+.goboldlow        { font-family: goboldlow !important; font-weight: 100; }
+.goboldlow-italic { font-family: goboldlow-italic !important; font-weight: 100; } */
+
+/* ========= geral ========= */
+.fa-home{ color: var(--corBtnHomeTxt); padding: 7px; background: var(--corBtnHome); border-radius: 8px; width: 50px !important; height: 50px !important;}
+.fa-home:hover{ color: var(--corBtnHomeTxtHover); background: var(--corBtnHomeHover);}
+.mini-icon-wpp{ height: 25px; width: 25px; border-radius: 3px;}
+.benf-icon-color{ color: var(--corBenfIcon); }
+.fa-share-square { color: var(--corBtnShare); }
+.fa-share-alt { color: var(--corBtnShare); }
+.text-colorbase { color: var(--corTxtBase) !important; }
+.uk-navbar-dropdown-nav > li > a { color: #000; }
+
+.footer-box {width: 100%; padding-top: 70px; background: var(--corFooter); border-top: 8px solid var(--corDefault);line-height: 20px; z-index: 4; } 
+    
+
+.defaut-text-color{ color: var(--corDefault1); }
+
+
+.fadeIn {-webkit-animation: fadeIn .4s ease-in-out;-moz-animation: fadeIn .4s ease-in-out;-o-animation: fadeIn .4s ease-in-out;animation: fadeIn .4s ease-in-out;}
+.fadeInBotao {-webkit-animation: fadeIn 1.5s ease-in-out;-moz-animation: fadeIn 1.5s ease-in-out;-o-animation: fadeIn 1.5s ease-in-out;animation: fadeIn 1.5s ease-in-out;}
+
+body {overflow-x: hidden;font-family: ubuntu;font-weight:300;background: var(--bodyBg) ;}
+
+#corpo{ padding: 0 20px; margin-bottom: 0; max-width: 1360px; margin-left: auto; margin-right: auto; }
+
+.sc-menu-main { background-color: var(--corMenuBg) !important; }
+.sc-menu-main .uk-navbar-nav > li > a { color: var(--corMenuTxt) !important; font-size: 12px; }
+.sc-menu-main .uk-navbar-nav > li > a:hover { color: var(--corMenuTxtHover) !important; }
+.sc-navbar-color:not(.uk-navbar-transparent){ background: var(--corMenuBg) !important;
+    height: 40px;
+    color: var(--corMenuTxt);
+}
+* + .uk-margin{
+    margin: 0!important;
+}
+.sc-navbar-color-transparent:not(.uk-navbar-transparent){
+    background: var(--corMenuBg);
+    /*opacity: .95;*/
+    height: 95px;
+    color: var(--corMenuTxt);
+}
+.uk-navbar-nav > li > a, a[class="uniuansbold"]:not([href]) {
+    color: #1a1a1a;
+}
+a[class="uniuansbold"]:not([href]):hover{
+    color: #777;
+}
+
+.home-btn:hover{
+    color: var(--corBtnHover) !important;
+}
+.uk-navbar-toggle-icon{
+    color: var(--corBtn);
+}
+
+.cropSlide {height: 400px; margin: 0 0 0px; overflow: hidden; width: 100%; }
+.crop {height: 200px; margin: 0 0 0px; overflow: hidden; width: 100%; }
+.crop img{width:100%;}
+.crop1 {height: 500px; margin: 0 0 0px; overflow: hidden; width: 100%; }
+.crop2 {height: 288px; margin: 0 0 0px; overflow: hidden; width: 100%; }
+.crop3 {height: 440px; margin: 0 0 0px; overflow: hidden; width: 100%; }
+
+.uniuansbold{font-family: uniuansbold!important;font-weight: 100;}
+.uniuansheavy{font-family: uniuansheavy!important;font-weight: 100;}
+.unisanslight{font-family: unisanslight!important;font-weight: 100;}
+.unisanssemibold{font-family: unisanssemibold!important;font-weight: 100;}
+.unisansbook{font-family: unisanssemibold!important;font-weight: 100;}
+.harabara{font-family: harabara!important;font-weight: 100;}
+
+
+
+
+#cabecalho { background: var(--corBgPadrao); height: auto; }
+#cabecalho .navegacao {height:50px;width: 100%;position: absolute;right: 0;}
+#cabecalho nav { background: var(--corBgMenu); border: medium none transparent; border-radius: 0; left: 0; padding-top: 0; position: absolute; width: 100%; z-index: 9; }
+.navbar-nav .nav-link{color: var(--corTextMenu);}
+#cabecalho .navegacao a {line-height: 15px;margin: -10px 0 0;padding: 20px;top: 0 !important;}
+#cabecalho .navegacao a:hover{color: #000!important;}
+#cabecalho .logotipo {/*width:426px;height:150px;*/display:block;/*margin-top:5px;padding-bottom:10px*/}
+#cabecalho .topoInfo {font-size: 16px;top: 90px;}
+#cabecalho .topoInfo span{font-size: 27px;color: #183884;text-shadow:1px 1px 1px #183884;}
+#cabecalho .topoInfo .pl{font-size: 22px;}
+#cabecalho .topoInfo .telefone {color:#fefefe;text-shadow:1px 1px 1px #976568;font-size:20px;margin:0 0 0 0px;}
+#cabecalho .endereco {font-size:17px;}
+#cabecalho .Lazul {color: #00aad4}
+#cabecalho .Lamarelo {color: #ffdd55}
+.banner{text-align: center;}
+
+.sidebar h3 {background: var(--corDefault2); color:#fff;font-size:21px;font-weight:300;margin:0;padding:7px 0;}
+#buscar, #servicos, #linksUteis {/*background-color:#EBEBEB;*/margin-bottom:20px;}
+#buscar .espacamento {margin:30px auto;max-width: 1300px;}
+#buscar .espacamento select {margin-bottom:12px;}
+#buscar #referencia{/*width:70%;*/color:#1c1c1c;border:1px solid #cecece;padding:5px 10px;text-align:center;border-radius: 3px;float: right;margin: 0px auto;}
+#buscar #valor{width:100%;color:#ccc;border:1px solid #cecece;padding:5px 10px;text-align:center;border-radius: 3px;}
+#buscar button {border-radius:3px;background-color:var(--corBtnBusca);color:var(--corBtnBuscaTxt);}
+.input::-moz-placeholder, .textarea::-moz-placeholder { color: var(--corBgPadrao); }
+
+#servicos ul, #linksUteis ul {list-style:none;padding-left:20px;padding-bottom:12px;}
+#servicos li, #linksUteis li {margin:10px 0;}
+#servicos a, #linksUteis a {color:#323232;font-size:16px;}
+
+#corretor{background: rgba(0, 0, 0, 0) url("../img/corretor.png") no-repeat scroll 0 0;float: right;padding: 0 20px 10px 100px;position: absolute;right: 0;top: -20px;width: 280px;height: 90px;}
+#pin2{z-index: 999;}
+
+.titulo-interno { margin: 75px 0 0 0; padding: 0 0 5px 0; /*text-transform: uppercase;*/ font-size: 28px; font-weight: 300;}
+.titulo-border {
+    border-bottom: 3px solid var(--corButtonBusca);
+    margin: -8px 0 30px 15%;
+    width: 20%;
+}
+
+.lista-imoveis {margin-bottom:50px;}
+.lista-imoveis .imovel {margin: 30px 0 0 0px;/*height:269px !important;*/width: auto;}
+.lista-imoveis .imovel a {color:#989798;background-color:#F9F9F9;display:block;width:100%;padding-bottom:10px;transition: all 0.8s;-moz-transition: all 0.8s;-webkit-transition: all 0.8s;height: 360px;box-shadow: 0 0 1px 0px #b0b0b0;margin: 0 0 -30px 0;}
+.lista-imoveis .imovel a:hover {color:#000;border-radius: 5px;box-shadow: 0 0 12px -4px #b0b0b0;transition: all 0.8s;-moz-transition: all 0.8s;-webkit-transition: all 0.8s;text-decoration: none;}
+.lista-imoveis .imovel p {margin:0 0 0 15px;}
+.lista-imoveis .imovel p:first-of-type {text-transform:uppercase;}
+.lista-imoveis .foto-imovel {/*padding:10px;*/margin-bottom:10px;}
+.lista-imoveis .fixa-imagem .foto-imovel {padding:0px;margin-bottom:0px;}
+
+.home {margin-bottom:50px;}
+.home .imovel {margin-top:30px;height: 330px;/*width: 290px;*/}
+.home .imovel a {min-height: 320px;max-height: 320px; color:#989798;background-color:#F9F9F9;display:block;width:100%;padding-bottom:10px;text-decoration: none;box-shadow: 0px 0 10px -3px #acacac;transition: all 0.8s;-moz-transition: all 0.8s;-webkit-transition: all 0.8s;}
+.home .imovel a:hover {color:#000;box-shadow: 0px 0 10px 3px #acacac;transition: all 0.8s;-moz-transition: all 0.8s;-webkit-transition: all 0.8s;}
+.home .imovel p {margin:0 10px 0 15px;}
+.home .imovel i {margin:0 0px 0 5px;}
+.home .imovel .valor {color:#8dd163;margin: 0px 0 0;padding: 5px 15px;position: absolute;right: 50px;font-size: 20px;}
+.home .imovel p:first-of-type {text-transform:uppercase;}
+.home .foto-imovel {padding:0px;margin-bottom:10px;}
+.home .fixa-imagem .foto-imovel {padding:0px;margin-bottom:0px;}
+.home .ref { background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0; color: #fff; font-size: 12px; padding: 10px 20px; position: absolute; right: -10px; top: 30px; width: auto; z-index: 9; }
+.home .benfeitorias {background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0; color: #fff; margin: -55px 0 20px 0; padding: 15px 10px; position: sticky;  opacity: 0;transition: all .45s;transform: translateY(35px);}
+.home .imovel:hover .benfeitorias {background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0; color: #fff; margin: -55px 0 20px 0; position: sticky;   opacity: 1 ;transition: all .45s;transform: translateY(0px);}
+.home .imovel img {transition: all .65s;}
+/*.home .imovel:hover img {transform: scale(0.98);opacity: 1 ;transition: all .45s;padding: 10px}*/
+.shadow {box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);transition: all 0.8s;-moz-transition: all 0.8s;-webkit-transition: all 0.8s;}
+.shadow:hover{box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3),0 2px 10px 0 rgba(0,0,0,0.25);transition: all 0.8s;-moz-transition: all 0.8s;-webkit-transition: all 0.8s;}
+/*.home-destaque a{background: #fefefe;}*/
+
+/* .fichas h1,
+.construcao h1,
+.empresa h1,
+.contato h1 {margin-bottom:15px;} */
+
+.breadcrumbs {background-color:#c93238;font-weight:300;margin:0;padding:8px 10px;color:#FFF;}
+.breadcrumbs a {color:#959799;}
+.breadcrumbs a:hover {text-decoration:underline;color:yellow;}
+
+#rodape {
+    /*background-color: var(--corBgPadrao);*/
+    border-top: 2px solid #a2a1a1;
+    color: var(--corTextMenu);
+    margin: 40px 0 0 0;
+    padding: 10px 0;
+    box-shadow: 0 0px 7px -3px #a6a6a6;
+}
+#rodape address {line-height:20px;font-size:15px;}
+#rodape a {line-height:20px;font-size:15px;text-align: center;color: #333;}
+#rodape .rodape-logo a {display:block;width:110px;height:118px;margin:18px auto 18px 0;}
+#rodape .telefone {color:#fefefe;font-size:19px;margin-top:44px;text-shadow:1px 1px 1px #976568;font-weight: 900;}
+#rodape .email {color:#fefefe;font-size:19px;margin-top:0px;display:block;}
+#rodape2 { background-color: #1c1c1c; color: #DBDBDB; padding: 10px 0; }
+#rodape2 p {margin:0;}
+#rodape2 a:hover,
+#rodape2 a:hover img {text-decoration:none;}
+.menu-rodape{border-top: 2px solid #00afef;margin: 30px 0 0 0;}
+.color-black a{color: #555;font-size: 15px;}
+
+.fichas .links {width:500px;text-align: center;margin:auto;}
+.fichas .links a {font-size:15px;display: block;margin-top:20px;}
+.fichas .links a:first-of-type {margin-top:50px;}
+
+#fichaForm .row {margin-top:15px;}
+.form-group label { color: #fff; }
+
+/* Customizado: Classe para Criar Radio Button */
+.criaRadioButton {position:relative;}
+.criaRadioButton span {position:absolute;top:1px;}
+.criaRadioButton input {margin-right:5px;}
+
+.ver-imovel {margin-bottom: 50px;padding: 0 30px;}
+.ver-imovel .imagem img {border:1px solid silver;}
+.ver-imovel h1 {color:#323232;font-size:24px;font-weight:300;margin-bottom:20px;}
+.ver-imovel .imgPrincipal {border:1px solid #aaa;box-shadow:1px 1px 2px #999;}
+.ver-imovel .galeria button {border-radius:0;margin-top:25px;}
+.ver-imovel .informacoes h2 {margin:15px 0 20px 0;font-size:20px;border-bottom:1px solid #6F7071;padding-bottom:4px;}   
+.ver-imovel .informacoes ul {list-style:none;margin:0;padding:0;}
+.ver-imovel .fb-share-button {margin:10px 0; }
+
+.ver-imovel .infoComplementar h2,
+.ver-imovel .descAdicional h2,
+.ver-imovel .anuncio h2 {margin:20px 0;font-size:20px;border-bottom:1px solid #6F7071;padding-bottom:8px;}
+
+.ver-imovel .infoComplementar h2 span,
+.ver-imovel .descAdicional h2 span,
+.ver-imovel .anuncio h2 span {width:200px;text-align:center; color: var(--corTxtBase);padding:5px 30px;}
+
+.ver-imovel .outrasAcoes .btn, a.btn {border-radius:0;float: left; margin: 10px 10px 0 0;}
+
+.infoComplementar ul {margin:0;padding:0;}
+/*.infoComplementar li {list-style:none;}*/
+.infoComplementar li {float: left; list-style: outside none none; margin: 5px 0; width: 30%;}
+.fixa-imagem {overflow:hidden !important;display:block;}
+.fixa-imagem img {width:225px !important;height:169px !important;}
+
+.paginador {margin-top:50px;}
+.paginador li.first,
+.paginador li.last {display:none !important;}
+.uk-pagination > li > a { color: var(--corTxtBase); }
+.page, .previous, .last, .next, .first{ padding: 8px 14px; border-radius: 8px; margin: 0 10px; }
+.page.active{ background: var(--corBtn); }
+.page.active:hover{ background: var(--corBtnHover); }
+.uk-pagination > li.page.active > a { color: var(--corBtnTxt); }
+.page.active > a { font-weight: bold; }
+.page.active:hover > a { color: #fff; }
+.page:not(.active):hover, .previous:hover, 
+.last:hover, .next:hover, .first:hover { background: #eee; }
+.page:not(.active):hover > a, .previous:hover > a , 
+.last:hover > a, .next:hover > a, .first:hover > a { color: #111;}
+
+
+.item-favorito {color:#989798;background-color:#F9F9F9;display:block;width:100%;padding-bottom:10px;margin-top:20px;padding:10px;}
+.item-favorito div:first-of-type {padding:0px;}
+.item-favorito ul {margin:0;padding:0;list-style:none;}
+
+#rss {margin-top:50px;}
+#rss .rss-item {margin:10px 0;}
+#rss .rss-item div {background-color: #f9f9f9;/*height:102px !important;max-height:102px !important;*/overflow:hidden;}
+#rss .rss-item div:first-of-type {padding:20px;}
+#rss .post-data {display:block;font-size:12px;padding:5px 0 0;text-align:right;}
+#rss h4 {margin: 5px 0 10px;}
+#rss h3 {margin:0;background-color:#c93238;color:#FFF;font-size: 21px;font-weight: 300;padding: 7px 20px;text-transform:uppercase;}
+#rss .rss-texto {margin:0;}
+.homeTitulo {margin:30px 0 0 0;background-color:#c93238;color:#FFF;font-size: 21px;font-weight: 300;padding: 7px 20px;text-transform:uppercase;}
+
+.rss-item div.col-md-12 {padding:20px !important;}
+.text-white{color: #fff}
+.text-white:hover{color: #efefef}
+
+li{list-style: none;}
+
+.flex-container {padding: 0; margin: 0; list-style: none; display: -webkit-box; display: -moz-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-flow: row wrap; justify-content: space-around; }
+.flex-item {padding: 5px; /*margin-top: 10px;*/ line-height: 40px;transition: all .33;-moz-transition: all .33;-webkit-transition: all .33;}
+
+
+/* .swiper-button-prev.swiper-button-white, .swiper-container-rtl .swiper-button-next.swiper-button-white { background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E"); }
+.swiper-button-next.swiper-button-white, .swiper-container-rtl .swiper-button-prev.swiper-button-white { background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E"); }
+.swiper-button-prev.swiper-button-black, .swiper-container-rtl .swiper-button-next.swiper-button-black { background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E"); }
+.swiper-button-prev.swiper-button-black, .swiper-container-rtl .swiper-button-next.swiper-button-black { background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E"); }
+.swiper-button-next.swiper-button-red, .swiper-container-rtl .swiper-button-prev.swiper-button-red { background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0%29 --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' width='512px' height='512px' viewBox='0 0 451.846 451.847' style='enable-background:new 0 0 451.846 451.847;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M345.441,248.292L151.154,442.573c-12.359,12.365-32.397,12.365-44.75,0c-12.354-12.354-12.354-32.391,0-44.744 L278.318,225.92L106.409,54.017c-12.354-12.359-12.354-32.394,0-44.748c12.354-12.359,32.391-12.359,44.75,0l194.287,194.284 c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,248.292z' fill='%23D80027'/%3E%3C/g%3E%3C/svg%3E%0A");background-size:44px; }
+.swiper-button-prev.swiper-button-red, .swiper-container-rtl .swiper-button-next.swiper-button-red { background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='iso-8859-1'%3F%3E%3C!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0%29 --%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Capa_1' x='0px' y='0px' width='512px' height='512px' viewBox='0 0 451.847 451.847' style='enable-background:new 0 0 451.847 451.847;' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M97.141,225.92c0-8.095,3.091-16.192,9.259-22.366L300.689,9.27c12.359-12.359,32.397-12.359,44.751,0 c12.354,12.354,12.354,32.388,0,44.748L173.525,225.92l171.903,171.909c12.354,12.354,12.354,32.391,0,44.744 c-12.354,12.365-32.386,12.365-44.745,0l-194.29-194.281C100.226,242.115,97.141,234.018,97.141,225.92z' fill='%23D80027'/%3E%3C/g%3E%3C/svg%3E%0A");background-size:44px; } */
+.figure__image { margin: 0 0 7px; overflow: hidden; position: relative; width: auto; }
+.figure__image img { max-width: 100%; -moz-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
+a:hover .figure__image img { -moz-transform: scale(1.5); -webkit-transform: scale(1.5); transform: scale(1.5); transform: translate(-50%, -50%); }
+.top-sticky {margin: 0; position: -webkit-sticky; position: sticky; top: -21px; z-index: 999; }
+
+.engenharia .txt-content{ margin-top: 5px; font-weight: 500; }
+.engenharia .txt-slogan{ margin-top: 40px; font-weight: 500; }
+
+/* ======= busca_h.php ======= */
+#busca > .fa-search{ color: var(--corBtnBuscaTxt); }
+#servicos, #linksUteis { margin-bottom: 20px;}
+#buscar .espacamento {margin: auto;max-width: 1140px; padding: 30px 20px;}
+#buscar .espacamento select {margin-bottom:12px; font-family: ubuntu;font-weight: bold; font-size: 14px;}
+#buscar #referencia{ color:#1c1c1c;border:1px solid #cecece;padding:5px 10px;text-align:center;border-radius: 3px;float: right;margin: 0px auto; font-family: ubuntu; font-weight: bold; font-size: 14px;}
+#buscar #valor{width:100%;color:#ccc;border:1px solid #cecece;padding:5px 10px;text-align:center;border-radius: 3px;}
+#buscar button { background-color:var(--corBtnBusca); color:var(--corBtnBuscaTxt); border-radius:3px; }
+#buscar button:hover { background-color:var(--corBtnBuscaHover); }
+
+
+/* ======= m_sidebar.php ======= */
+.sidebar h3 {background: var(--corBgPadrao); color:var(--corBgPadraoTxt);font-size:21px;font-weight:300;margin:0;padding:7px 0;}
+#servicos ul, #linksUteis ul {list-style:none;padding-left:20px;padding-bottom:12px;}
+#servicos li, #linksUteis li {margin:10px 0;}
+#servicos a, #linksUteis a {color:#fff;font-size:16px;}
+
+.anchor-overlay{ 
+    position: absolute; top: 0; bottom: 0; left: 0; right: 0; display: block; width: 100%;
+    z-index: 1; 
+}
+.anchor-overlay:hover {
+    background-color: rgb(0 0 0 / 10%);
+    width: calc(100% - 30px);
+    margin: 0px auto;
+}
+
+.anchor-inner { display: block; color: var(--corBtn); position: absolute; z-index: 2; }
+.anchor-inner:hover { color: var(--corBtnHover); }
+
+.imv-card-header{ position: relative; margin-bottom: 10px; }
+.imv-card-header h2 { margin: 0; }
+#imob-venda .carousel-indicators, #imob-locacao .carousel-indicators{ 
+    position: relative; right: 0; bottom: 0; top: 10px; left: 0;
+    -webkit-box-pack: unset; -ms-flex-pack: unset; justify-content: unset;
+    padding: 0; margin: 0;
+}
+.moreimv-btn{ 
+    background-color: var(--corBtn); display: block; 
+    padding: 7.5px 10px; border-radius: 5px;
+    color: var(--corBtnTxt); text-align: center; 
+    font-family: ubuntu; font-weight: normal; 
+    text-decoration: none; 
+}
+.moreimv-btn:hover { background-color: var(--corBtnHover); color: var(--corBtnTxt); text-decoration: none; }
+
+#imob-venda .carousel-indicators > li, 
+#imob-venda-mobile .carousel-indicators > li, 
+#imob-locacao .carousel-indicators > li, 
+#imob-locacao-mobile .carousel-indicators > li{ background-color: var(--corCarousel); width: 25px; height: 17.5px; cursor: pointer; }
+
+#imob-venda .carousel-indicators .active,
+#imob-venda-mobile .carousel-indicators .active,
+#imob-locacao .carousel-indicators .active,
+#imob-locacao-mobile .carousel-indicators .active{ background-color: var(--corCarouselActive); }
+
+#imob-venda .uk-card-default,#imob-locacao .uk-card-default, #imob-venda-mobile .uk-card-default, #imob-locacao-mobile .uk-card-default, .lista-imoveis .uk-card-default{
+    background-color: var(--corImovelCard);
+}
+.imv-info { padding: 20px !important; }
+.imv-tpbem { color: var(--corImovelTxt); font-family: ubuntu; font-size: 22px }
+.imv-adress, .imv-refer { color: var(--corImovelTxt); font-family: ubuntu; font-weight: lighter; margin-bottom: 5px; }
+.imv-adress { font-size: 16px; }
+.imv-refer { font-size: 12px; }
+
+.footer-box p, .footer-box a{ font-size: 13px; font-family: ubuntu !important; font-weight: 100 !important; text-decoration: none; }
+.footer-box p, .footer-box a, 
+.footer-box svg, .footer-box i, 
+.footer-box h1, .footer-box { color: var(--corFooterTxt); }
+.footer-box a:hover { color: var(--corFooterTxtHover); }
+.val-color1 { color: var(--cor01); }
+.val-color2 { color: var(--cor02); }
+
+#return-to-top { 
+    position: fixed; bottom: 20px; right: 20px;
+    display: none; width: 50px; height: 50px;
+    text-decoration: none; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+    background: var(--corReturnToTop);
+}
+#return-to-top i {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: var(--corReturnToTopHover);
+}
+#return-to-top:hover i, #return-to-top svg {
+    color: var(--corReturnToTopTxt);
+    top: 5px;
+}
+
+h2.ubuntu.text-colorbase{ font-size: 26px; font-weight: 100}
+
+@media screen and (min-width: 769px) {
+    .imovel-imagem { height: 100%; width: auto; }
+}
+
+@media screen and (max-width: 768px) {
+    .imovel-imagem { height: auto; width: 100%; }
+}
+
+@media screen and (min-width: 768px) {
+    #imob-venda-mobile, #imob-locacao-mobile, .listar-mobile {display: none;}
+}
+
+@media screen and (max-width: 767px) {
+    #imob-venda, #imob-locacao, .listar-desktop {display: none;}
+}
+
+.topoInfo { background: var(--corBgBusca) !important; }

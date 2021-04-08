@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="17mm" height="17mm" viewBox="0 0 60.236221 60.23622" id="svg4984" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="social-face.svg">
+  <defs id="defs4986">
+    <radialGradient r="684.52258" id="SVGID_1_" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.9986,-0.05233596,-0.04448556,-0.8488,44.4709,1334.337)" cy="997.7359" cx="62.823299">
+      <stop id="stop9" style="stop-color:#FED576" offset="0" />
+      <stop id="stop11" style="stop-color:#F47133" offset="0.2634" />
+      <stop id="stop13" style="stop-color:#BC3081" offset="0.6091" />
+      <stop id="stop15" style="stop-color:#4C63D2" offset="1" />
+    </radialGradient>
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="3.959798" inkscape:cx="152.29041" inkscape:cy="92.301832" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" inkscape:window-width="1920" inkscape:window-height="1052" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" />
+  <metadata id="metadata4989">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-992.12599)">
+    <g id="g4186" transform="matrix(0.10551661,0,0,0.10551661,3.0865617,935.1382)">
+      <g id="Background">
+        <radialGradient r="684.52258" id="radialGradient5547" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.9986,-0.05233596,-0.04448556,-0.8488,44.4709,1334.337)" cy="997.7359" cx="62.823299">
+          <stop id="stop5549" style="stop-color:#FED576" offset="0" />
+          <stop id="stop5551" style="stop-color:#F47133" offset="0.2634" />
+          <stop id="stop5553" style="stop-color:#BC3081" offset="0.6091" />
+          <stop id="stop5555" style="stop-color:#4C63D2" offset="1" />
+        </radialGradient>
+        <path id="path17" d="M 469.3553,492.83068 L 42.983277,492.82952 C 25.374255,492.82947 19.277908,477.07677 19.277494,469.13568 L 19.25522,42.699839 C 19.254368,26.391682 32.932884,18.971439 43.003855,18.971625 L 469.39568,18.9795 C 479.00629,18.979678 493.10006,25.736963 493.10046,42.677565 L 493.11053,469.14235 C 493.11085,482.65982 482.2987,492.83071 469.3553,492.83068 Z" class="st0" style="fill:url(#SVGID_1_)" inkscape:connector-curvature="0" sodipodi:nodetypes="sssssssss" />
+      </g>
+      <g id="Symbol">
+        <g id="g20">
+          <path id="path22" d="M 255.1,139.9 C 293,139.9 297.5,140 312.5,140.7 C 326.3,141.3 333.9,143.6 338.9,145.6 C 345.5,148.2 350.3,151.3 355.2,156.2 C 360.2,161.2 363.2,165.9 365.8,172.5 C 367.7,177.5 370.1,185 370.7,198.9 C 371.4,213.9 371.5,218.4 371.5,256.3 C 371.5,294.2 371.4,298.7 370.7,313.7 C 370.1,327.5 367.8,335.1 365.8,340.1 C 363.2,346.7 360.1,351.5 355.2,356.4 C 350.2,361.4 345.5,364.4 338.9,367 C 333.9,368.9 326.4,371.3 312.5,371.9 C 297.5,372.6 293,372.7 255.1,372.7 C 217.2,372.7 212.7,372.6 197.7,371.9 C 183.9,371.3 176.3,369 171.3,367 C 164.7,364.4 159.9,361.3 155,356.4 C 150,351.4 147,346.7 144.4,340.1 C 142.5,335.1 140.1,327.6 139.5,313.7 C 138.8,298.7 138.7,294.2 138.7,256.3 C 138.7,218.4 138.8,213.9 139.5,198.9 C 140.1,185.1 142.4,177.5 144.4,172.5 C 147,165.9 150.1,161.1 155,156.2 C 160,151.2 164.7,148.2 171.3,145.6 C 176.3,143.7 183.8,141.3 197.7,140.7 C 212.7,140.1 217.2,139.9 255.1,139.9 M 255.1,114.3 C 216.5,114.3 211.7,114.5 196.5,115.2 C 181.4,115.9 171.1,118.3 162,121.8 C 152.7,125.4 144.7,130.3 136.8,138.2 C 128.9,146.1 124,154 120.4,163.4 C 116.9,172.4 114.5,182.8 113.8,197.9 C 113.1,213.1 112.9,217.9 112.9,256.5 C 112.9,295.1 113.1,299.9 113.8,315.1 C 114.5,330.2 116.9,340.5 120.4,349.6 C 124,358.9 128.9,366.9 136.8,374.8 C 144.7,382.7 152.6,387.6 162,391.2 C 171,394.7 181.4,397.1 196.5,397.8 C 211.7,398.5 216.5,398.7 255.1,398.7 C 293.7,398.7 298.5,398.5 313.7,397.8 C 328.8,397.1 339.1,394.7 348.2,391.2 C 357.5,387.6 365.5,382.7 373.4,374.8 C 381.3,366.9 386.2,359 389.8,349.6 C 393.3,340.6 395.7,330.2 396.4,315.1 C 397.1,299.9 397.3,295.1 397.3,256.5 C 397.3,217.9 397.1,213.1 396.4,197.9 C 395.7,182.8 393.3,172.5 389.8,163.4 C 386.2,154.1 381.3,146.1 373.4,138.2 C 365.5,130.3 357.6,125.4 348.2,121.8 C 339.2,118.3 328.8,115.9 313.7,115.2 C 298.5,114.5 293.7,114.3 255.1,114.3 L 255.1,114.3 Z" class="st1" inkscape:connector-curvature="0" style="fill:#ffffff" />
+          <path id="path24" d="M 255.1,183.4 C 214.8,183.4 182.2,216.1 182.2,256.3 C 182.2,296.5 214.9,329.2 255.1,329.2 C 295.3,329.2 328,296.5 328,256.3 C 328,216.1 295.4,183.4 255.1,183.4 Z M 255.1,303.7 C 228.9,303.7 207.8,282.5 207.8,256.4 C 207.8,230.2 229,209.1 255.1,209.1 C 281.2,209.1 302.4,230.3 302.4,256.4 C 302.5,282.5 281.3,303.7 255.1,303.7 Z" class="st1" inkscape:connector-curvature="0" style="fill:#ffffff" />
+          <circle id="circle26" r="17" cy="180.60001" cx="331" class="st1" style="fill:#ffffff" />
+        </g>
+      </g>
+    </g>
+    <g id="soical-3" style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(0.83333333,0,0,0.83333333,5.1181103,997.2441)">
+      <g transform="translate(-273,-138)" id="social-7">
+        <g transform="translate(173,138)" id="slices-3" />
+        <g transform="translate(173,138)" id="square-flat-5" style="fill:#346da6">
+          <path id="square-2-5" d="M 102.99594,0 L 157.00406,0 C 158.65867,0 160,1.3373097 160,2.9959374 L 160,57.004063 C 160,58.658673 158.66269,60 157.00406,60 L 102.99594,60 C 101.34133,60 100,58.66269 100,57.004063 L 100,2.9959374 C 100,1.3413269 101.33731,0 102.99594,0 Z" inkscape:connector-curvature="0" />
+        </g>
+        <g transform="translate(182,150)" id="icon-1" style="fill:#ffffff">
+          <path id="facebook-8" d="M 116.46222,35.314313 L 116.46222,17.998961 L 112.94329,17.998961 L 112.94329,12.259356 L 116.46222,12.259356 L 116.46222,8.7883864 C 116.46222,4.1066422 117.86199,0.73061899 122.9881,0.73061899 L 129.08636,0.73061899 L 129.08636,6.45844 L 124.79225,6.45844 C 122.64189,6.45844 122.15187,7.8873763 122.15187,9.3837609 L 122.15187,12.259355 L 128.76942,12.259356 L 127.86617,17.998961 L 122.15187,17.998961 L 122.15187,35.314312 L 116.46222,35.314313 Z" inkscape:connector-curvature="0" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
